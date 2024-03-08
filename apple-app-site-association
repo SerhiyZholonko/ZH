@@ -3,7 +3,7 @@
         "details": [{
             "appIDs": ["FUF7HHD92K.com.DehealthApp.www"],
             "components": [{
-                "/": "/*",
+                "/": "/*", "", "*"
                 "comment": "Matches any URL whose path starts with /"
             }]
         }]
