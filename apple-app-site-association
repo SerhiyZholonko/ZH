@@ -3,8 +3,8 @@
         "details": [{
             "appIDs": ["FUF7HHD92K.com.DehealthApp.www"],
             "components": [{
-                "/": "/stock/*",
-                "comment": "Matches any URL whose path starts with /stock/"
+                "/": "/*",
+                "comment": "Matches any URL whose path starts with /"
             }]
         }]
     },
