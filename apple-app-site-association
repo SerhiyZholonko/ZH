@@ -1,11 +1,16 @@
 {
     "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "FUF7HHD92K.com.DehealthApp.www",
-                "paths": ["/"]
-            }
+        "details": [{
+            "appIDs": ["FUF7HHD92K.com.DehealthApp.www"],
+            "components": [{
+                "/": "/stock/*",
+                "comment": "Matches any URL whose path starts with /stock/"
+            }]
+        }]
+    },
+    "appclips": {
+        "apps": [
+            "FUF7HHD92K.com.DehealthApp.www"
         ]
     }
 }
